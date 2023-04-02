@@ -1,6 +1,6 @@
 {
-  "name": "@safe-global/safe-core-sdk",
-  "version": "3.3.2",
+  "name": "@crossbell-box/safe-core-sdk",
+  "version": "3.3.3",
   "description": "Safe Core SDK",
   "main": "dist/src/index.js",
   "typings": "dist/src/index.d.ts",
@@ -9,6 +9,9 @@
     "Safe",
     "SDK"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "unbuild": "rimraf dist artifacts deployments cache .nyc_output",
     "build": "hardhat compile && tsc",
